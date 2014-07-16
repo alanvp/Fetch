@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
+<!--[if IE 10]> <html class="ie10" lang="en"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]> <html lang="en"> <![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A mobile web app that makes it easier to share and save print articles.">
+    <meta name="author" content="Fetch the Paper">
+    <link rel="shortcut icon" href="/app/assets/ico/favicon.png">
+
+    <title>Fetch the Paper | Home</title>
+
+    <!-- Bootstrap core CSS -->
+<!--     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/theme-orange.css" rel="stylesheet"> -->
+
+    <!-- Custom styles for this template -->
+<!--     <link href="css/magnific-popup.css" rel="stylesheet"> -->
+
+    <!-- Font Awesome -->
+<!--     <link href="css/font-awesome.min.css" rel="stylesheet">
+ -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+     <script src="<%= asset_path 'sha1.js'%>"></script>
+     <script src="<%= asset_path 'modernizr.custom.js'%>"></script>
+  </head>
+
+  <body>
+
+    <div class="preloader">
+       <div class="spinner">
+          <div class="bounce1"></div>
+          <div class="bounce2"></div>
+          <div class="bounce3"></div>
+        </div>
+    </div>
+
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper cbp-af-header">
+      <div class="container">
+
+        <!-- Fixed navbar -->
+        <div class="navbar cbp-af-inner" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <h1><a class="navbar-brand scroll" href="#intro">FETCHthePAPER</a></h1>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- <li><a href="#featured1">Features</a></li> -->
+                <!-- <li class="hidden-sm"><a href="#testimonials">Testimonials</a></li> -->
+                <!-- <li><a href="#pricing">Pricing</a></li> -->
+                <li><a class="hidden-sm login" href="#">Try it</a></li>
+                <!-- <li><a class="signup" href="#">Sign up</a></li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Hero Banner
+    ================================================== -->
+    <div id="intro">
+        <div class="item background-cover" style="background: url(<%= asset_path '235031-1280x800.jpg'%>)">
+          <div class="container">
+            <div class="row">
+              <div class="carousel-caption-center colour-white">
+                <h2>He'll fetch the paper, but not your tablet.</h2>
+                <h1>Read Paper.</h1>
+                <p>Fetch the Paper is a mobile web app that makes it easier to share and save print articles. Take a photo of a magazine or newspaper article, then we'll find the online version and send you the link.</p>
+                <p><a class="btn btn-lg btn-primary signup" href="#" role="button">Try it now</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="overlay-bg"></div>
+        </div>
+    </div>
+
+
+
+    <!-- About Section
+    ================================================== -->
+    <section id="about" class="content text-center light">
+
+      <div class="container">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-12 overlay-text">
+            <h2>The benefits of digital reading, but less digital</h2>
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+
+        <div class="row">
+          <div class="col-sm-4 text-center overlay-text icons">
+            <div class="icon-wrapper">
+              <i class="fa fa-mobile icon-large"></i>
+            </div>
+            <h3>1. Take photo of print article</h3>
+            <p>Visit this website on your mobile phone and take a photo of a print article whose online version you want to save or share.</p>
+          </div>
+          <div class="col-sm-4 text-center overlay-text icons">
+            <div class="icon-wrapper">
+              <i class="fa fa-envelope-o icon-large"></i>
+            </div>
+            <h3>2. Enter your email</h3>
+            <p>We'll find your article and email you the URL. Sign in through Facebook and we'll also make it easy to share and save searches.</p>
+          </div>
+          <div class="col-sm-4 text-center overlay-text icons">
+            <div class="icon-wrapper">
+              <i class="fa fa-book icon-large"></i>
+            </div>
+            <h3>3. Carry on screen-free</h3>
+            <p>Spend less time looking at screens and more time enjoying your print newspapers and magazines!</p>
+          </div>
+        </div><!-- /.row -->
+      </div>
+
+    <div class="overlay-bg light"></div>
+
+    </section>
+
+
+    <!-- Featured Sections
+    ================================================== -->
+    <section id="featured1" class="dark with-bg">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 overlay-text">
+            <div class="vertical-align">
+              <h2>Tools that enhance print</h2>
+              <p>We love print. We think people spend too much time staring at screens. We can't imagine reading the Sunday morning paper on a tablet. We hope those that predict print's demise get assimilated by the Borg.</p><p>Still, digital has its advantages and we aim to bridge that gap.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="overlay-bg black"></div>
+
+    </section>
+
+
+    <section id="featured2" class="featured">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 text-center">
+            <img class="margin-top img-responsive" src="<%= asset_path '40787-1280x800.jpg'%>" alt="Generic placeholder image" data-scrollreveal="move 100px and enter from the left after 0.55s" width="500" border="3px solid black">
+          </div>
+          <div class="col-sm-5 col-sm-offset-1">
+            <div class="vertical-align">
+              <h2>Why print will never die</h2>
+              <p>Eye strain cases are up 4000% in the last 10 years. Our eyes need print.</br></br>
+          
+              Unfolded, a newspaper spread has more viewing area than the largest computer screen, yet folds to the size of a tablet and costs a fraction of the amount.</br></br>
+          
+              When your 6mo old pukes all over you, would you rather be holding a digital device or paper magazine? Same question for when your 4yr old dumps apple juice on you.</br></br>
+          
+              To date, Warren Buffet has purchased 157 newspapers. Jeff Bezos bought the Washington Post. Good enough for Warren and Jeff, good enough for us.  
+              <p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <section id="featured3" class="dark">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>What our users are reading</h2>
+          </div>  
+        </div>
+        <div class="row">
+          <div class="col-sm-4 overlay-text">
+            <div class="vertical-align">       
+              <p>The New Yorker</br>Wall Street Journal</br>Oprah Magazine</br>Sports Illustrated</br>Atlantic Monthly</br>New York Times</br>Washington Post</br>Fast Company</br>Better Homes and Gardens</br>Financial Times</br>Cosmopolitan</br>Inc</br>The Economist</br>Maxim</br>Rolling Stone</br>Mens Health</br>Forbes
+              </p> 
+            </div>   
+          </div>    
+          <div class="col-sm-4 overlay-text">
+            <div class="vertical-align">    
+              <p>GQ</br>Readers Digest</br>National Geographic</br>Bloomberg Businessweek</br>Time</br>Southern Living</br>People</br>Money</br>Harvard Business Review</br>Golf Digest</br>InStyle</br>Bone Appetit</br>Los Angeles Times</br>Popular Science</br>Car and Driver</br>Wired</br>USA Today
+              </p>  
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+<!--       <div class="overlay-bg black"></div> -->
+
+    </section>
+
+    <!-- Testimonials
+    ================================================== -->
+   
+    <!-- Gallery
+    ================================================== -->
+ 
+
+    <!-- Pricing
+    ================================================== -->
+
+
+    <!-- Call to Action
+    ================================================== -->
+    <section class="cta text-center">
+
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Read Print.</h2>
+            <p><a href="#" class="btn signup" role="button">Try it now</a></p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer id="contact" class="footer">
+
+      <div class="container">    
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="col-sm-3 col-md-3">
+              <div class="footer-logo">
+                <h2>FetchThePaper</h2>
+                <p>contact@fetchthepaper.com</p>
+                <br>
+                <p class="muted">A passion project by</p> <a href="http://www.linkedin.com/in/alanvanpelt/">Alan Van Pelt</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+		</footer>
+
+    <div id="login" class="overlay overlay-content">
+  
+      <button type="button" class="overlay-close">Close</button>
+      <section class="login-part">
+
+        <p id="instruction">
+          Take a photo of the headline of your article. Try to include the author's name in the photo.
+        </p>
+
+        <input id="takepic" type="file" capture="camera" accept="image/*" style="display:none; opacity:0; width:0px; height:0px;" />
+        <button type="button" id="picbutton" class="btn btn-primary btn-block btn-large">Take picture</button>
+
+        <div id="emailInput">
+          <input class="form-control" type="email" id="emailVal" placeholder="Email" required="required" />
+          <button type="button" class="btn btn-primary btn-block btn-large">Go!</button>
+        </div>
+
+        </br>
+  
+        <div id="sendimage"></div>
+        <img id="yourimage" style="width:100%;">
+        <div id="progressNumber"></div>
+  
+       </section>
+      
+    </div>
+
+
+<!--       <button type="button" class="overlay-close">Close</button>
+      <section class="login-part">
+        <p class="login-overlay">
+          Log In
+        </p>
+        <form method="post">
+          <input class="form-control" type="email" name="u" placeholder="Email" required="required" />
+          <input class="form-control" type="password" name="p" placeholder="Password" required="required" />
+          <button type="submit" class="btn btn-primary btn-block btn-large">Log me in</button>
+          <a href="#" class="forgot-pw">Forgot password? We can help!</a>
+        </form>
+       </section>
+      
+    </div> -->
+
+    <div id="signup" class="overlay overlay-content">
+  
+      <button type="button" class="overlay-close">Close</button>
+      <section class="login-part">
+        <p class="login-overlay">
+          Sign up to Prestige
+        </p>
+        <form method="post">
+          <input class="form-control" type="text" name="email" placeholder="Email" required="required" />
+          <input class="form-control" type="password" name="pw" placeholder="Password" required="required" />
+          <input class="form-control" type="password" name="repeat-pw" placeholder="Repeat Password" required="required" />
+          <button type="submit" class="btn btn-primary btn-block btn-large">Get started</button>
+          <p class="disclaimer">By signing up, you agree with our <a href="#">Terms of Service</a> & <a href="#">Privacy Policy</a></p>
+        </form>
+       </section>
+      
+    </div>
+
+ 
+  
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="<%= asset_path 'jquery-1.10.2.min.js'%>"></script>
+    <script src="<%= asset_path 'bootstrap.min.js'%>"></script>
+    <script src="<%= asset_path 'classie.js'%>"></script>
+		<script src="<%= asset_path 'cbpAnimatedHeader.min.js'%>"></script>
+    <script src="<%= asset_path 'owl.carousel.min.js'%>"></script>
+    <script src="<%= asset_path 'scrollReveal.js'%>"></script>
+    <script src="<%= asset_path 'jquery.scrollTo.js'%>" defer="defer"></script>
+    <script src="<%= asset_path 'jquery.nav.js'%>" defer="defer"></script>
+    <script src="<%= asset_path 'imagesloaded.pkgd.min.js'%>" defer="defer"></script>
+    <script src="<%= asset_path 'isotope.min.js'%>" defer="defer"></script>
+    <script src="<%= asset_path 'jquery.magnific-popup.min.js'%>" defer="defer"></script>
+    <script src="<%= asset_path 'jqBootstrapValidation.js'%>" defer="defer"></script>
+    <script src="<%= asset_path 'custom.js'%>"></script>
+
+    <script>
+
+      $(document).ready(function(){
+        isotope();
+        signupOverlay();
+        loginOverlay();
+      });
+
+    </script>
+
+  </body>
+</html>
